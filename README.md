@@ -7,17 +7,13 @@
 2. Build the workspace
 
        git clone https://github.com/ichsanyudika/razor_imu_rviz2.git
-       
        cd ~/razor_imu_rviz2
-       
        colcon build
-       
        source install/setup.bash
 
 3. Launch
 
        ros2 launch imu_serial serial_imu_node.py
-       
        rviz2
 
 ### Simulation
